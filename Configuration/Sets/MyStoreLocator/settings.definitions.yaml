@@ -1,0 +1,46 @@
+categories:
+  mystorelocator:
+    label: 'My Store Locator'
+
+settings:
+  plugin.tx_mystorelocator.height:
+    label: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.height'
+    description: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.height.description'
+    category: mystorelocator
+    type: string
+    default: 'auto'
+  plugin.tx_mystorelocator.language:
+    label: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.language'
+    description: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.language.description'
+    category: mystorelocator
+    type: string
+    default: 'auto'
+    enum:
+      auto: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language.auto'
+      de: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language.de'
+      en: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language.en'
+  plugin.tx_mystorelocator.consent:
+    label: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.consent'
+    description: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.consent.description'
+    category: mystorelocator
+    type: bool
+    default: true
+  plugin.tx_mystorelocator.lazy:
+    label: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.lazy'
+    category: mystorelocator
+    type: bool
+    default: true
+  plugin.tx_mystorelocator.offset:
+    label: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.offset'
+    description: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.offset.description'
+    category: mystorelocator
+    type: int
+    default: 0
+  plugin.tx_mystorelocator.layout:
+    label: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:settings.layout'
+    category: mystorelocator
+    type: string
+    default: 'default'
+    enum:
+      default: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.layout.default'
+      split: 'LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.layout.split'

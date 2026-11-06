@@ -1,0 +1,12 @@
+# cat=plugin.tx_mystorelocator//10; type=string; label=Default map height: "auto" (the map grows with its content) or a CSS height such as 640px
+plugin.tx_mystorelocator.height = auto
+# cat=plugin.tx_mystorelocator//20; type=options[auto (from the site language)=auto,Deutsch=de,English=en]; label=Default map language
+plugin.tx_mystorelocator.language = auto
+# cat=plugin.tx_mystorelocator//30; type=boolean; label=Consent mode (GDPR click-to-load): the map loads only after the visitor clicks "Karte laden"
+plugin.tx_mystorelocator.consent = 1
+# cat=plugin.tx_mystorelocator//40; type=boolean; label=Lazy loading: load the map frame when it scrolls into view
+plugin.tx_mystorelocator.lazy = 1
+# cat=plugin.tx_mystorelocator//50; type=int+; label=Offset (px): height of a sticky page header (used with height "auto")
+plugin.tx_mystorelocator.offset = 0
+# cat=plugin.tx_mystorelocator//60; type=options[Default=default,Split (finder template, height auto)=split]; label=Default layout
+plugin.tx_mystorelocator.layout = default

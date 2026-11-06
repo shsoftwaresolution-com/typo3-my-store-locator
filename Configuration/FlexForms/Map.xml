@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:tab.map</sheetTitle>
+                <type>array</type>
+                <el>
+                    <settings.token>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.token</label>
+                        <description>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.token.description</description>
+                        <config>
+                            <type>input</type>
+                            <size>60</size>
+                            <max>4000</max>
+                            <eval>trim</eval>
+                            <placeholder>gf5jjebq0fae210403</placeholder>
+                            <fieldControl>
+                                <mslConnect>
+                                    <renderType>mslConnect</renderType>
+                                </mslConnect>
+                            </fieldControl>
+                        </config>
+                    </settings.token>
+                    <settings.height>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.height</label>
+                        <description>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.height.description</description>
+                        <config>
+                            <type>input</type>
+                            <size>12</size>
+                            <max>16</max>
+                            <eval>trim</eval>
+                            <placeholder>auto</placeholder>
+                        </config>
+                    </settings.height>
+                    <settings.language>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items>
+                                <numIndex index="0"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.useDefault</label><value></value></numIndex>
+                                <numIndex index="1"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language.auto</label><value>auto</value></numIndex>
+                                <numIndex index="2"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language.de</label><value>de</value></numIndex>
+                                <numIndex index="3"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.language.en</label><value>en</value></numIndex>
+                            </items>
+                        </config>
+                    </settings.language>
+                    <settings.consent>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.consent</label>
+                        <description>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.consent.description</description>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items>
+                                <numIndex index="0"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.useDefault</label><value></value></numIndex>
+                                <numIndex index="1"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.on</label><value>1</value></numIndex>
+                                <numIndex index="2"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.off</label><value>0</value></numIndex>
+                            </items>
+                        </config>
+                    </settings.consent>
+                    <settings.lazy>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.lazy</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items>
+                                <numIndex index="0"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.useDefault</label><value></value></numIndex>
+                                <numIndex index="1"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.on</label><value>1</value></numIndex>
+                                <numIndex index="2"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.off</label><value>0</value></numIndex>
+                            </items>
+                        </config>
+                    </settings.lazy>
+                    <settings.offset>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.offset</label>
+                        <description>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.offset.description</description>
+                        <config>
+                            <type>input</type>
+                            <size>6</size>
+                            <max>4</max>
+                            <eval>trim</eval>
+                            <placeholder>0</placeholder>
+                        </config>
+                    </settings.offset>
+                    <settings.layout>
+                        <label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.layout</label>
+                        <description>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.layout.description</description>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items>
+                                <numIndex index="0"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.useDefault</label><value></value></numIndex>
+                                <numIndex index="1"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.layout.default</label><value>default</value></numIndex>
+                                <numIndex index="2"><label>LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:flexform.layout.split</label><value>split</value></numIndex>
+                            </items>
+                        </config>
+                    </settings.layout>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

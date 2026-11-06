@@ -1,0 +1,23 @@
+# My Store Locator – content element "mystorelocator_map"
+tt_content.mystorelocator_map =< lib.contentElement
+tt_content.mystorelocator_map {
+    templateName = MyStoreLocatorMap
+    templateRootPaths.200 = EXT:my_store_locator/Resources/Private/Templates/ContentElements/
+
+    dataProcessing.1761370001 = Shss\MyStoreLocator\DataProcessing\MapProcessor
+    dataProcessing.1761370001 {
+        as = mslMap
+        defaults {
+            height = {$plugin.tx_mystorelocator.height}
+            language = {$plugin.tx_mystorelocator.language}
+            consent = {$plugin.tx_mystorelocator.consent}
+            lazy = {$plugin.tx_mystorelocator.lazy}
+            offset = {$plugin.tx_mystorelocator.offset}
+            layout = {$plugin.tx_mystorelocator.layout}
+        }
+    }
+
+    # visitors see nothing (no empty frame) when the element has no valid map token
+    stdWrap.if.isTrue.cObject = USER
+    stdWrap.if.isTrue.cObject.userFunc = Shss\MyStoreLocator\Frontend\TokenCondition->hasValidToken
+}

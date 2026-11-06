@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:my_store_locator/Resources/Private/Language/locallang.xlf" product-name="my_store_locator">
+		<header/>
+		<body>
+			<trans-unit id="noscript" resname="noscript" approved="yes">
+				<source>Please enable JavaScript to see the store map.</source>
+				<target state="final">Bitte JavaScript aktivieren, um die Standortkarte zu sehen.</target>
+			</trans-unit>
+			<trans-unit id="consent.text" resname="consent.text" approved="yes">
+				<source>This map is loaded from my-store-locator.com (own map server in Germany). Your IP address is transferred to this server.</source>
+				<target state="final">Diese Karte wird von my-store-locator.com geladen (eigener Kartenserver in Deutschland). Dabei wird Ihre IP-Adresse an diesen Server übertragen.</target>
+			</trans-unit>
+			<trans-unit id="consent.button" resname="consent.button" approved="yes">
+				<source>Load map</source>
+				<target state="final">Karte laden</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

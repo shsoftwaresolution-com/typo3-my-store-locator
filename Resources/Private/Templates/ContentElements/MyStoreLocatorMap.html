@@ -1,0 +1,21 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+    <f:if condition="{mslMap.valid}">
+        <f:if condition="{mslMap.consent}">
+            <f:then>
+                <div{mslMap.attributeString -> f:format.raw()}>
+                    <div class="msl-consent" style="height:{mslMap.placeholderHeight};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:#f6f7f9;border-radius:12px;font:14px system-ui;text-align:center;padding:24px;box-sizing:border-box">
+                        <p style="max-width:420px;margin:0;color:#475467"><f:translate key="LLL:EXT:my_store_locator/Resources/Private/Language/locallang.xlf:consent.text" languageKey="{mslMap.language}" /></p>
+                        <button type="button" class="msl-consent__load" style="background:#5b55d9;color:#fff;border:0;border-radius:10px;padding:10px 18px;font-weight:600;cursor:pointer"><f:translate key="LLL:EXT:my_store_locator/Resources/Private/Language/locallang.xlf:consent.button" languageKey="{mslMap.language}" /></button>
+                    </div>
+                </div>
+            </f:then>
+            <f:else>
+                <div{mslMap.attributeString -> f:format.raw()}></div>
+            </f:else>
+        </f:if>
+        <noscript><p><f:translate key="LLL:EXT:my_store_locator/Resources/Private/Language/locallang.xlf:noscript" /></p></noscript>
+    </f:if>
+</f:section>
+</html>

@@ -1,0 +1,37 @@
+{
+	"name": "shss/my-store-locator",
+	"type": "typo3-cms-extension",
+	"description": "My Store Locator for TYPO3: embed your store finder / location map (stores, branches, dealers) as a content element. GDPR click-to-load, hosted in Germany.",
+	"keywords": ["TYPO3", "extension", "store locator", "store finder", "map", "locations", "dealer locator"],
+	"homepage": "https://my-store-locator.com/?utm_source=typo3&utm_medium=integration&utm_campaign=typo3-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Sajjad Hanifa (SH Software Solution / Internet am Dornbusch)",
+			"email": "info@my-store-locator.com",
+			"homepage": "https://my-store-locator.com/",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@my-store-locator.com",
+		"docs": "https://my-store-locator.com/?utm_source=typo3&utm_medium=integration&utm_campaign=typo3-plugin"
+	},
+	"require": {
+		"php": "^8.1",
+		"typo3/cms-core": "^12.4 || ^13.4",
+		"typo3/cms-backend": "^12.4 || ^13.4",
+		"typo3/cms-frontend": "^12.4 || ^13.4",
+		"typo3/cms-fluid-styled-content": "^12.4 || ^13.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Shss\\MyStoreLocator\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "my_store_locator"
+		}
+	}
+}

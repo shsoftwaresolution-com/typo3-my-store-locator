@@ -1,0 +1,4 @@
+name: shss/my-store-locator
+label: 'My Store Locator'
+dependencies:
+  - typo3/fluid-styled-content

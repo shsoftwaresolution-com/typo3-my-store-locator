@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf" product-name="my_store_locator">
+		<header/>
+		<body>
+			<trans-unit id="ce.title" resname="ce.title">
+				<source>My Store Locator map</source>
+			</trans-unit>
+			<trans-unit id="ce.description" resname="ce.description">
+				<source>Store finder / location map from My Store Locator (paste the map token or connect your account).</source>
+			</trans-unit>
+			<trans-unit id="tab.map" resname="tab.map">
+				<source>Map</source>
+			</trans-unit>
+			<trans-unit id="flexform.token" resname="flexform.token">
+				<source>Map token</source>
+			</trans-unit>
+			<trans-unit id="flexform.token.description" resname="flexform.token.description">
+				<source>Paste the map token, the embed code (iframe or widget) or the public map link (…/#/m/…). Find it in My Store Locator under Embed. No account yet? Sign up free: https://app.my-store-locator.com/#/register?utm_source=typo3</source>
+			</trans-unit>
+			<trans-unit id="flexform.height" resname="flexform.height">
+				<source>Height</source>
+			</trans-unit>
+			<trans-unit id="flexform.height.description" resname="flexform.height.description">
+				<source>"auto" = the map grows with its content (recommended), or a CSS height such as 640px. Empty = default from the site settings.</source>
+			</trans-unit>
+			<trans-unit id="flexform.language" resname="flexform.language">
+				<source>Language</source>
+			</trans-unit>
+			<trans-unit id="flexform.language.auto" resname="flexform.language.auto">
+				<source>Automatic (from the site language)</source>
+			</trans-unit>
+			<trans-unit id="flexform.language.de" resname="flexform.language.de">
+				<source>German</source>
+			</trans-unit>
+			<trans-unit id="flexform.language.en" resname="flexform.language.en">
+				<source>English</source>
+			</trans-unit>
+			<trans-unit id="flexform.useDefault" resname="flexform.useDefault">
+				<source>Default (site settings)</source>
+			</trans-unit>
+			<trans-unit id="flexform.consent" resname="flexform.consent">
+				<source>Consent mode (click to load)</source>
+			</trans-unit>
+			<trans-unit id="flexform.consent.description" resname="flexform.consent.description">
+				<source>GDPR: shows a placeholder with a privacy notice; the map (and the connection to app.my-store-locator.com) loads only after the visitor clicks.</source>
+			</trans-unit>
+			<trans-unit id="flexform.on" resname="flexform.on">
+				<source>On</source>
+			</trans-unit>
+			<trans-unit id="flexform.off" resname="flexform.off">
+				<source>Off</source>
+			</trans-unit>
+			<trans-unit id="flexform.lazy" resname="flexform.lazy">
+				<source>Lazy loading</source>
+			</trans-unit>
+			<trans-unit id="flexform.offset" resname="flexform.offset">
+				<source>Sticky header offset (px)</source>
+			</trans-unit>
+			<trans-unit id="flexform.offset.description" resname="flexform.offset.description">
+				<source>Height of your sticky page header in pixels, so the map stays below it (used with height "auto").</source>
+			</trans-unit>
+			<trans-unit id="flexform.layout" resname="flexform.layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="flexform.layout.description" resname="flexform.layout.description">
+				<source>"Split" is for the Finder template with height "auto": the list grows with the page, the map stays in view.</source>
+			</trans-unit>
+			<trans-unit id="flexform.layout.default" resname="flexform.layout.default">
+				<source>Standard</source>
+			</trans-unit>
+			<trans-unit id="flexform.layout.split" resname="flexform.layout.split">
+				<source>Split (list + sticky map)</source>
+			</trans-unit>
+			<trans-unit id="preview.title" resname="preview.title">
+				<source>My Store Locator map</source>
+			</trans-unit>
+			<trans-unit id="preview.token" resname="preview.token">
+				<source>Map token</source>
+			</trans-unit>
+			<trans-unit id="preview.default" resname="preview.default">
+				<source>default</source>
+			</trans-unit>
+			<trans-unit id="preview.noToken" resname="preview.noToken">
+				<source>No map token yet: edit the element and paste your map token or embed code. The element is not shown on the website until then.</source>
+			</trans-unit>
+			<trans-unit id="preview.invalidToken" resname="preview.invalidToken">
+				<source>The map token is not valid (letters, digits, - and _, 6 to 64 characters). The element is not shown on the website.</source>
+			</trans-unit>
+			<trans-unit id="connect.button" resname="connect.button">
+				<source>Connect with My Store Locator (choose a map)</source>
+			</trans-unit>
+			<trans-unit id="settings.height" resname="settings.height">
+				<source>Default map height</source>
+			</trans-unit>
+			<trans-unit id="settings.height.description" resname="settings.height.description">
+				<source>"auto" or a CSS height such as 640px</source>
+			</trans-unit>
+			<trans-unit id="settings.language" resname="settings.language">
+				<source>Default map language</source>
+			</trans-unit>
+			<trans-unit id="settings.language.description" resname="settings.language.description">
+				<source>auto = German for German site languages, otherwise English</source>
+			</trans-unit>
+			<trans-unit id="settings.consent" resname="settings.consent">
+				<source>Consent mode (GDPR click-to-load)</source>
+			</trans-unit>
+			<trans-unit id="settings.consent.description" resname="settings.consent.description">
+				<source>The map loads only after a click; until then no connection to app.my-store-locator.com</source>
+			</trans-unit>
+			<trans-unit id="settings.lazy" resname="settings.lazy">
+				<source>Lazy loading</source>
+			</trans-unit>
+			<trans-unit id="settings.offset" resname="settings.offset">
+				<source>Sticky header offset (px)</source>
+			</trans-unit>
+			<trans-unit id="settings.layout" resname="settings.layout">
+				<source>Default layout</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

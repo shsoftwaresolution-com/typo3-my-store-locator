@@ -1,0 +1,12 @@
+# TYPO3 v12 only (v13 builds the wizard from the TCA item). Loaded from ext_localconf.php.
+mod.wizards.newContentElement.wizardItems.plugins {
+    elements.mystorelocator_map {
+        iconIdentifier = mystorelocator-map
+        title = LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:ce.title
+        description = LLL:EXT:my_store_locator/Resources/Private/Language/locallang_db.xlf:ce.description
+        tt_content_defValues {
+            CType = mystorelocator_map
+        }
+    }
+    show := addToList(mystorelocator_map)
+}
